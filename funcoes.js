@@ -1,6 +1,6 @@
-//let 
-
-
+//let x = "";
+//x = "oi";
+//console.log(x)
 
 
 function imprimeTexto (texto){
@@ -8,7 +8,7 @@ function imprimeTexto (texto){
 }
 
 imprimeTexto("oi mundo!");
-imprimeTexto("Xaxá");
+imprimeTexto(soma());
 
 
 function soma(){
