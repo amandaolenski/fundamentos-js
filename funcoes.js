@@ -14,10 +14,3 @@ imprimeTexto(soma());
 function soma(){
     const resultado = 2 + 2;
 }
-
-console.log(soma());
-
-function soma({
-    return 2+2;
-
-})
