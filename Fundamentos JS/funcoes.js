@@ -10,7 +10,6 @@ function imprimeTexto (texto){
 imprimeTexto("oi mundo!");
 imprimeTexto(soma());
 
-
 function soma(){
     const resultado = 2 + 2;
 }
