@@ -5,6 +5,7 @@ const cliente = {
     telefone: ["4255555444", "42999885544"],
 };
 
+/*
 cliente.endereco = [
 {
     rua: "R. Ebano Pereira",
@@ -15,10 +16,11 @@ cliente.endereco = [
 ];
 */
 
+
 const ChavesDoObjeto = Object.keys(cliente);
 console.log(ChavesDoObjeto);
 
-if (!ChavesDoObjeto.includes (endereco)){
+if (!ChavesDoObjeto.includes("endereco")){
     console.log("Erro, é necessário ter um endereço cadastrado");
 }
 
